@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+
+[[edge_functions]]
+  path = "/v1/*"
+  function = "minimax-proxy"
+
+[[edge_functions]]
+  path = "/img"
+  function = "minimax-proxy"
